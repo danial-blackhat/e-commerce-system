@@ -1,0 +1,133 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Background Image */
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('assets/img/bhbkserai.jpg') no-repeat center center/cover;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+/* Glassmorphism Container */
+.login-container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px) saturate(180%);
+    padding: 50px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Header */
+h1 {
+    margin-bottom: 30px;
+    font-size: 2.2rem;
+    color: #ffffff;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Input Styles */
+.input-container {
+    position: relative;
+    width: 100%;
+    margin: 20px 0;
+}
+
+input {
+    width: 100%;
+    padding: 16px 18px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    outline: none;
+    transition: all 0.4s ease;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+input:focus {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0 12px rgba(0, 150, 255, 0.8);
+    transform: scale(1.02);
+}
+
+/* Eye Icon Styles */
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.7);
+    transition: color 0.3s ease;
+}
+
+.toggle-password:hover {
+    color: #00bfff;
+}
+
+/* Button Styles */
+button {
+    width: 100%;
+    padding: 16px;
+    background: linear-gradient(135deg, #232526, #414345); /* New dark gradient color */
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.4s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #414345, #232526); /* New dark gradient color */
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(65, 67, 69, 0.4);
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+/* Animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

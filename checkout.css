@@ -1,0 +1,171 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+/* Container Styles */
+.checkout-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+/* Heading Styles */
+.checkout-container h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #007bff;
+}
+
+/* Back to Home Button Styles */
+.checkout-container > button {
+    background-color: #007bff !important;
+    color: #fff !important;
+}
+
+/* Form Styles */
+form label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #007bff;
+}
+
+form input[type="text"],
+form select,
+form textarea,
+form input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form select:focus,
+form textarea:focus,
+form input[type="file"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+form textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* Button Styles */
+button {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Modal Styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Modal Content - Positioned at the top-right corner */
+.modal-content {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #343a40;
+}
+
+.modal-content .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.modal-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.modal-content p,
+.modal-content ul,
+.modal-content h3 {
+    margin: 10px 0;
+}
+
+.modal-content button {
+    background-color: #007bff;
+}
+
+.modal-content button:hover {
+    background-color: #0056b3;
+}
+
+/* Payment Section */
+.payment-box {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.payment-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+.payment-box img {
+    margin-bottom: 15px;
+}
+
+.payment-box p {
+    margin: 10px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .checkout-container {
+        padding: 20px;
+    }
+
+    .modal-content {
+        top: 10px;
+        right: 10px;
+        width: 90%;
+    }
+}
