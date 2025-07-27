@@ -160,9 +160,9 @@ e-commerce-system/
 ## Screenshots 📸
 | Customer View | Admin Dashboard |
 |---------------|----------------|
-| ![Product Page]<img width="1346" height="688" alt="tesp1" src="https://github.com/user-attachments/assets/fb618636-f057-4dc0-bc4b-21e8e5607145" /> | ![Admin Dashboard]<img width="1343" height="697" alt="admin" src="https://github.com/user-attachments/assets/87df64ec-f3b4-4d2f-8396-d1a840a6fdc7" /> |
+| <img width="1346" height="688" alt="tesp1" src="https://github.com/user-attachments/assets/fb618636-f057-4dc0-bc4b-21e8e5607145" /> | <img width="1343" height="697" alt="admin" src="https://github.com/user-attachments/assets/87df64ec-f3b4-4d2f-8396-d1a840a6fdc7" /> |
 | Shopping Cart | Order Management |
-| ![Shopping Cart]<img width="1284" height="678" alt="shopcart" src="https://github.com/user-attachments/assets/6d97734f-fdf7-4241-9549-2337f4c299d6" /> | ![Order Management]<img width="1340" height="690" alt="ordermanage" src="https://github.com/user-attachments/assets/be9c20d9-5adf-4cf9-bde6-f90f8af32fa9" /> |
+|<img width="1284" height="678" alt="shopcart" src="https://github.com/user-attachments/assets/6d97734f-fdf7-4241-9549-2337f4c299d6" /> |<img width="1340" height="690" alt="ordermanage" src="https://github.com/user-attachments/assets/be9c20d9-5adf-4cf9-bde6-f90f8af32fa9" /> |
 
 ---
 
