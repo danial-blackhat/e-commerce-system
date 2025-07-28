@@ -210,7 +210,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Developed by Danial
 - 📧 Email: mrdanial2791@outlook.my
-- 💼 Portfolio: https://yourportfolio.com
 - 🐱 GitHub: [danial-blackhat](https://github.com/danial-blackhat)
 
 ---
